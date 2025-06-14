@@ -1,0 +1,43 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+}
+
+.hero {
+    height: 100vh;
+    background: url('images/background.jpg') center/cover no-repeat fixed;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.founder {
+    padding: 4rem 2rem;
+    background: #ffffff;
+    text-align: center;
+}
+
+.founder img {
+    width: 200px;
+    border-radius: 12px;
+    margin: 1rem 0;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
